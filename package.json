@@ -1,0 +1,17 @@
+{
+  "name": "counter-card",
+  "version": "1.1.8",
+  "description": "A Lovelace card for Home Assistant to control counter helpers.",
+  "main": "counter-card.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "card",
+    "counter"
+  ],
+  "author": "Uriel",
+  "license": "MIT"
+}
