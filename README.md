@@ -2,6 +2,8 @@
 
 A Lovelace card for Home Assistant to control counter helpers.
 
+![Example](./example.png)
+
 ## Features
 
 - Increment and decrement the counter.
