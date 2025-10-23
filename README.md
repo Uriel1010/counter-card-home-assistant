@@ -14,7 +14,13 @@ A Lovelace card for Home Assistant to control counter helpers.
 ## Installation
 
 1. Copy `counter-card.js` to your `www` directory in your Home Assistant configuration directory.
-2. Add the card to your Lovelace UI.
+2. Add the card to your Lovelace UI:
+   a. In Home Assistant, go to `Settings` > `Dashboards`.
+   b. Click the three dots menu in the top right corner and select `Resources`.
+   c. Click `Add Resource`.
+   d. Set `Url` as `/local/counter-card.js`.
+   e. Set `Resource type` as `JavaScript Module`.
+   f. Click `Create`.
 
 ## Usage
 
@@ -26,15 +32,6 @@ Add the following to your Lovelace YAML:
   title: My Counter
   step: 1
 ```
-
-## “Add to Home Assistant” button (for dashboards)
-
-If you want the Add to Home Assistant badge that opens Lovelace resources directly, use:
-
-[![Add to Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/lovelace_add_card/?url=/hacsfiles/counter-card/counter-card.js)
-
-
-This one is mainly used for dashboards when the resource is already installed.
 
 ## Version
 
