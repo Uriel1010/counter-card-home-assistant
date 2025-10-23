@@ -31,7 +31,7 @@ Add the following to your Lovelace YAML:
 
 If you want the Add to Home Assistant badge that opens Lovelace resources directly, use:
 
-<img src="https://my.home-assistant.io/badges/lovelace_add_card.svg" alt="Add to Home Assistant">
+[![Open your Home Assistant instance and show the add resource dialog for this repository](https://my.home-assistant.io/badges/lovelace_add_card.svg)](https://my.home-assistant.io/redirect/lovelace_add_card/?url=/hacsfiles/counter-card/counter-card.js)
 
 
 This one is mainly used for dashboards when the resource is already installed.
