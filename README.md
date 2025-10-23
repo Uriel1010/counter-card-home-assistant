@@ -14,7 +14,9 @@ A Lovelace card for Home Assistant to control counter helpers.
 1. Copy `counter-card.js` to your `www` directory in your Home Assistant configuration directory.
 2. Add the card to your Lovelace UI.
 
-## Configuration
+## Usage
+
+Add the following to your Lovelace YAML:
 
 ```yaml
 - type: custom:counter-card
@@ -25,4 +27,4 @@ A Lovelace card for Home Assistant to control counter helpers.
 
 ## Version
 
-1.1.7
+1.1.8
