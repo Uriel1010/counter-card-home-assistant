@@ -21,6 +21,14 @@ A Lovelace card for Home Assistant to control counter helpers.
    d. Set `Url` as `/local/counter-card.js`.
    e. Set `Resource type` as `JavaScript Module`.
    f. Click `Create`.
+   g. **Note:** If you do not see the `Resources` menu, you will need to enable `Advanced Mode` in your User Profile.
+   h. Restart Home Assistant after placing the file in the `www` folder.
+3. Add the custom card to your dashboard:
+   a. Go to the Lovelace dashboard where you want to add the card.
+   b. Click the three dots menu in the top right corner and select `Edit Dashboard`.
+   c. Click the `+ Add Card` button.
+   d. Search for `Custom: Counter Card` (or `Manual` and then enter the YAML configuration).
+   e. Configure the card as needed and save it.
 
 ## Usage
 
